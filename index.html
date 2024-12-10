@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: url('Nueva carpeta/font.png') no-repeat center center;
+  background-size: cover;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: url('Proyecto/unnamed.png') no-repeat center center; 
+  background-size: cover;
+}
+.header h1 {
+  font-size: 50px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-shadow: 2px 2px 5px white; 
+  color: #FF6347; 
+}
+.header p {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: lightyellow; 
+  text-shadow: 2px 2px 5px white;
+}
+.topnav {
+  background-color: #ffd600;
+  overflow: hidden;
+  box-shadow: 0px 4px 2px -2px gray;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.topnav a:hover {
+  background-color: #fff;
+  color: #ffd600;
+}
+.leftcolumn {
+  float: left;
+  width: 75%;
+  padding-top: 60px;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>La Mordelona</h1>
+  <p>Respetar a los animales es una obligación, amarlos es un privilegio.</p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.uv.mx/">Inicio</a>
+  <a href="#">Alimentos</a>
+  <a href="#">Desparasitantes</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Alimento para mascotas</h2>
+      <h5>Los mejores alimentos para nuestros amigos peludos</h5>
+      <a href="https://www.uv.mx/">
+        <img src="Proyecto/Nueva carpeta/ali.png" alt="Lo más destacado" style="width:300px; height:200px;">
+      </a>
+      <a href="https://www.uv.mx/"><p><strong>Mejor alimento para tus mascotas</strong></p></a>
+      <p text-align="justify">Brinda a tu mascota la alimentación que se merece. Nuestros alimentos contienen proteínas de alta calidad, grasas saludables, vitaminas y minerales esenciales para un pelaje brillante, huesos fuertes y una energía inagotable.</p>
+    </div>
+    <div class="card">
+      <h2>La mejor solucion para la caida de pluma de nuestros amigos plumiferos</h2>
+      <h5>UnRuffledRX</h5>
+     <a href="https://www.uv.mx/">
+        <img src="Proyecto/Nueva%20carpeta/unr.jpg" alt="Lo más destacado" style="width:500px; height:200px;">
+        </a>
+      <p>Para loros de todos los tamañosNo tóxicos, no sedantes fórmulas de grado humano. Compuesto natural basado en evidencias que se encuentra en el té verde para gestionar comportamientos dañinos inducidos por el estrés como picking de plumas y gritos.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Los mejores medicamentos</h2>
+        <a href="https://www.ejemplo.com/enlace">
+      <img src="Proyecto/Nueva%20carpeta/calmi.jpg" alt="Medicamentos" style="width:300px; height:200px;">
+        </a>
+      <p>Ideales para nuestros amigos peludos</p>
+    </div>
+    <div class="card">
+        
+      <a href="https://www.ejemplo.com/enlace1"> <img src="Proyecto/Nueva%20carpeta/little.webp" alt="Popular 1" style="width:100%; height:200px;"> </a>
+        <p>Comida para hamsters</p>
+      <a href="https://www.ejemplo.com/enlace2"> <img src="Proyecto/Nueva%20carpeta/yegi.webp" alt="Popular 2" style="width:100%; height:200px;"> </a>
+        <p>Los mejores suplementos para nuestros gatos</p>
+        <a href="https://www.ejemplo.com/enlace3"> <img src="Proyecto/Nueva%20carpeta/dogel.webp" alt="Popular 3" style="width:100%; height:200px;"> </a>
+        <p>Los mejores probioticos gastrointestinales para nuestros amigos perrunos con un rico sabor a pescado.</p>
+    </div>
+    <div class="card">
+      <h3>Consulte a su veterinario</h3>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>Usamos cookies para mejorar tu experiencia en La Mordelona</h2>
+</div>
+</body>
+</html>
